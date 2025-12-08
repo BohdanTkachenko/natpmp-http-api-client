@@ -1,4 +1,4 @@
-FROM alpine:3.22
+FROM alpine:3.23
 
 COPY --chmod=755 refresh.sh /usr/local/bin/refresh.sh
 
